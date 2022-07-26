@@ -3,7 +3,7 @@
 import california from '../images/california.png';
 
 
-function CardFunctionComponent() {
+function Card() {
     return (
         <div className='col'>
             <div className='card' style={{ width: '18rem', textAlign: 'center' }}>
@@ -18,4 +18,4 @@ function CardFunctionComponent() {
     );
 }
 
-export default CardFunctionComponent;
+export default Card;

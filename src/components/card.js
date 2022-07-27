@@ -9,7 +9,7 @@ class Card extends Component {
                 <div className='card mb-3 mt-3' style={{ width: '18rem', textAlign: 'center' }}>
                     <img src={this.props.card.image} className='card-img-top' alt='' />
                     <div className='card-body'>
-                        <h5 className='card-title'>{this.props.card.name}</h5>
+                        <h5 className='card-title'>{this.props.card.name} Roll</h5>
                         <p className='card-text'>€{this.props.card.price}</p>
                         <button className='btn btn-outline-danger'>Elimina</button>
                     </div>

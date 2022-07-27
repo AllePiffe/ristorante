@@ -5,12 +5,12 @@ import Card from './components/card';
 //import CardFunctionComponent from './components/cardfunctioncomponent';
 //import CardClassComponent from './components/cardclasscomponent';
 
-import california from './images/california.png';
-import dragon from './images/dragon.png';
-import dynamite from './images/dynamite.png';
-import philadelphia from './images/philadelphia.png';
-import rainbow from './images/rainbow.png';
-import shrimp from './images/shrimp.png';
+import california from './image/california.jpg';
+import dragon from './image/dragon.jpg';
+import dynamite from './image/dynamite.jpg';
+import philadelphia from './image/philadelphia.jpg';
+import rainbow from './image/rainbow.jpg';
+import shrimp from './image/shrimp.jpg';
 
 class App extends Component {
   render() {

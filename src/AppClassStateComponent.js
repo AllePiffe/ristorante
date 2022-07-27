@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import Navbar from './components/navbar';
 import Card from './components/card';
+
 //import CardFunctionComponent from './components/cardfunctioncomponent';
 //import CardClassComponent from './components/cardclasscomponent';
 //import CardClassComponent from './components/cardclasscomponent';
 
-
-import california from './images/california.png';
-import dragon from './images/dragon.png';
-import dynamite from './images/dynamite.png';
-import philadelphia from './images/philadelphia.png';
-import rainbow from './images/rainbow.png';
-import shrimp from './images/shrimp.png';
+import california from './images/california.jpg';
+import dragon from './images/dragon.jpg';
+import dynamite from './images/dynamite.jpg';
+import philadelphia from './images/philadelphia.jpg';
+import rainbow from './images/rainbow.jpg';
+import shrimp from './images/shrimp.jpg';
 
 class AppClassStateComponent extends Component {
   state = {
@@ -21,7 +21,9 @@ class AppClassStateComponent extends Component {
       { id: 2, name: "Dynamite", price: 1.99, image: dynamite },
       { id: 3, name: "Philadelphia", price: 1.99, image: philadelphia },
       { id: 4, name: "Rainbow", price: 1.99, image: rainbow },
-      { id: 5, name: "Shrimp", price: 1.99, image: shrimp }
+      { id: 5, name: "Shrimp", price: 1.99, image: shrimp },
+      { id: 6, name: "Philadelphia", price: 1.99, image: philadelphia },
+      { id: 7, name: "Rainbow", price: 1.99, image: rainbow }
     ]
   }
 
@@ -36,11 +38,10 @@ class AppClassStateComponent extends Component {
             {this.state.object_cards.map(object_cards => (
               <Card
                 key={object_cards.id}
-                card={object_cards}
-              //passo l'intero oggetto cards
-              //name={cards.name}
-              //price={cards.price}
-              //image={cards.image}
+                card={object_cards} //passo l'intero oggetto cards
+              //name={object_cards.name}
+              //price={object_cards.price}
+              //image={object_cards.image}
               />
             ))}
           </div>

@@ -1,9 +1,8 @@
 
 // component Card 
 import california from '../images/california.png';
-
-
 function Card() {
+
     return (
         <div className='col'>
             <div className='card' style={{ width: '18rem', textAlign: 'center' }}>

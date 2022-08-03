@@ -2,3 +2,14 @@
 .navbar-brand {
     color: white !important;
 }
+
+.badge {
+    background-color: rgb(230, 32, 32) !important;
+    color: black !important;
+}
+
+
+.badge-dark {
+    background-color: rgb(230, 32, 32) !important;
+    color: black !important;
+}
